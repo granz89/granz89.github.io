@@ -1,0 +1,11 @@
+.quote{
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 0.5em;
+}
+
+.quote-big{
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 2em;
+}
