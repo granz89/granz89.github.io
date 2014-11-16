@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+.card {
+	margin: 0 auto;
+	width: 16%;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	
+	-webkit-animation: slide-up 2000ms linear;
+	animation: slide-up 2000ms linear;
+}
+
+.card__text {
+	background-color: #ED5A2A;
+	color: #EBE8DC;
+	color: #;
+	padding: 1em;
+	width: 100%;
+	position: absolute;
+	bottom: -4em;
+	opacity: 0;
+	transition: all 500ms linear;
+}
+
+.card:hover .card__text {
+	bottom: 0;
+	opacity: 1;
+}
+
+@-webkit-keyframes slide-up {
+
+	0% {
+		top: 10em;
+
+	}
+
+	100% {
+		top: 0;
+
+	}
+}
+
+@keyframes slide-up {
+
+	0% {
+		top: 10em;
+
+	}
+
+	100% {
+		top: 0;
+
+	}
+}
