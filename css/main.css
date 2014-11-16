@@ -36,13 +36,6 @@ h2{
    margin: 0 auto;
 }
 
-.contact {
-	text-align: center;
-	font-size: 15px;
-	display: inline-block;
-	margin: 0.25em 7%;
-}
-
 .sun {
 	width: 300px;
 }
@@ -130,14 +123,14 @@ Will tell the animation to stay at its end state after complete */
 	margin: 0em 1.5% 2em;
 }
 
-.ships{
+.designer{
 	width: 150px;
 	display: inline-block;
 	margin: 0.25em 1.5%;
 }
 
 
-.ships-section {
+.designer-section {
 	background: transparent url("../img/placeholder1.jpg") no-repeat center;
 	background-size: cover;
 	text-align: center;
@@ -145,15 +138,29 @@ Will tell the animation to stay at its end state after complete */
 	padding: 6rem 0 7rem;
 }
 
+.contact {
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+	margin: 0.25em 6.5%;
+}
+
 .contact-section {
 	text-align: center;
 	background-color: #ED5A2A;
+	padding: 6rem 0 1rem;
+}
+
+.contact1-section {
+	text-align: center;
+	background-color: #ED5A2A;
+	padding: 1rem 0 1rem;
 }
 
 .icons {
 	width: 100px;
 	display: inline-block;
-	margin: 0.25em 1.5%;
+	margin: 0.25em 4.75%;
 }
 
 /*body {
