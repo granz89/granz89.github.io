@@ -1,11 +1,242 @@
-.quote{
-	text-align: center;
-	font-family: "Oswald", sans-serif;
-	font-size: 0.5em;
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.5 "open sans","sans serif";
+	background-color: #EBE8DC;
 }
 
-.quote-big{
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+section {
+	padding: 10rem 0;
+}
+
+h2{
+	font-family: Oswald, "sans serif";
+	font-size: 45px;
+}
+
+.header{
+	font-family: Oswald, "sans serif";
+	font-size: 45px;
 	text-align: center;
-	font-family: "Oswald", sans-serif;
-	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.about-section {
+	text-align: center;
+	padding: 6rem 0;
+}
+
+#about {
+   width: 900px;
+   margin: 0 auto;
+}
+
+.contact {
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+	margin: 0.25em 7%;
+}
+
+.sun {
+	width: 300px;
+}
+
+.sun-section {
+	background: transparent url("../img/placeholder.jpg") no-repeat center top;
+	background-size: cover;
+	padding: 15rem 0;
+}
+
+.dipper {
+	width: 200px;
+	opacity: 0;
+}
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear forwards;
+/*
+animation-fill-mode: forwards;
+Will tell the animation to stay at its end state after complete */
+
+}
+
+/*dont't forget other prefixes!*/
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.shuttle {
+	width: 200px;
+	opacity: 0;
+}
+
+.folio-section {
+	text-align: center;
+	padding: 3rem 0 1rem;
+}
+
+
+.portfolio-section {
+	text-align: center;
+	padding: 3rem 0 0;
+}
+
+.portfolio1-section {
+	text-align: center;
+	padding: 1.3rem 0 0;
+}
+
+.portfolio2-section {
+	text-align: center;
+	padding: 1.3rem 0 6rem;
+}
+
+.portfolio{
+	width: 300px;
+	display: inline-block;
+	margin: 0 1%;
+}
+
+.js-shuttle-fade {
+-webkit-animation: shuttle-fade 1s linear forwards;
+
+}
+
+@-webkit-keyframes shuttle-fade {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.me {
+	width: 175px;
+	display: inline-block;
+	margin: 0em 1.5% 2em;
+}
+
+.ships{
+	width: 150px;
+	display: inline-block;
+	margin: 0.25em 1.5%;
+}
+
+
+.ships-section {
+	background: transparent url("../img/placeholder1.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 6rem 0 7rem;
+}
+
+.contact-section {
+	text-align: center;
+	background-color: #ED5A2A;
+}
+
+.icons {
+	width: 100px;
+	display: inline-block;
+	margin: 0.25em 1.5%;
+}
+
+/*body {
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.5 "open sans","sans serif";
+	background-color: #EBE8DC;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+section {
+	padding: 10rem 0;
+}
+
+.sun {
+	width: 300px;
+}
+
+.sun-section {
+	background: transparent url("../img/mars-pano.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+.dipper {
+	width: 200px;
+	opacity: 0;
+}
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear forwards;
+
+animation-fill-mode: forwards;
+Will tell the animation to stay at its end state after complete 
+
+}
+
+/*dont't forget other prefixes!
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.shuttle {
+	width: 200px;
+	opacity: 0;
+}
+
+.shuttle-section {
+	background-color: #f6a500;
+}
+
+.js-shuttle-fade {
+-webkit-animation: shuttle-fade 1s linear forwards;
+
+}
+
+@-webkit-keyframes shuttle-fade {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.ships {
+	width: 200px;
+	display: inline-block;
+	margin: 0.25em 1.5%;
+}
+
+.ships-section {
+	background: transparent url("../img/kasei-valles-canyons.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
 }
