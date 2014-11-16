@@ -47,8 +47,8 @@ h1{
    margin: 0 auto;
 }
 
-.sun {
-	width: 300px;
+.logo{
+	width: 600px;
 }
 
 .sun-section {
@@ -159,13 +159,37 @@ Will tell the animation to stay at its end state after complete */
 .contact-section {
 	text-align: center;
 	background-color: #ED5A2A;
-	padding: 6rem 0 1rem;
+	padding: 3rem 0 1rem;
 }
 
 .contact1-section {
 	text-align: center;
 	background-color: #ED5A2A;
 	padding: 1rem 0 1rem;
+}
+
+.connect {
+	text-align: center;
+	font-size: 25px;
+	margin: 0.25em 6.5%;
+	color: #EBE8DC;
+	font-family: Oswald, "sans serif";
+	text-transform: uppercase;
+}
+
+.connect1 {
+	text-align: center;
+	font-size: 15px;
+	margin: 0.25em 6.5% 4em;
+	color: #EBE8DC;
+}
+
+.connect2 {
+	text-align: center;
+	font-size: 12px;
+	margin: 2em 6.5% 1em;
+	color: #EBE8DC;
+	text-transform: uppercase;
 }
 
 .icons {
@@ -185,7 +209,6 @@ Will tell the animation to stay at its end state after complete */
       opacity: 0.5;
     	}
     }
-
 
 /*body {
 	margin: 0;
