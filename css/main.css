@@ -113,6 +113,7 @@ Will tell the animation to stay at its end state after complete */
 	margin: 0 1%;
 }
 
+
 .js-shuttle-fade {
 -webkit-animation: shuttle-fade 1s linear forwards;
 
