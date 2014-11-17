@@ -255,6 +255,12 @@ h1,
 	padding: 0 1.75rem;
 }
 
+.portfolio{
+	width: 300px;
+	display: block;
+	margin: 0 1%;
+}
+
 }    
 
 /*----- fade ----- */
