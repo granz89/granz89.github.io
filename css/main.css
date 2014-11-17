@@ -51,7 +51,7 @@ h1{
 	width: 600px;
 }
 
-.sun-section {
+.logo-section {
 	background: transparent url("../img/placeholder.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 15rem 0;
@@ -165,7 +165,7 @@ Will tell the animation to stay at its end state after complete */
 
 .contact1-section {
 	text-align: center;
-	background-color: #ED5A2A;
+	background-color: #E0522B;
 	padding: 1rem 0 1rem;
 }
 
@@ -199,6 +199,59 @@ Will tell the animation to stay at its end state after complete */
 	margin: 0.25em 4.75%;
 }
 
+/*------------------- Media Quiery ----------------*/
+
+@media screen and (max-width: 400px) {
+	
+body {
+	font: normal 75%/1.5 "open sans","sans serif";
+}
+
+.logo {
+	width: 225px;
+}
+
+.logo-section {
+	padding: 10rem 0;
+}
+
+h1,
+.header,
+.header1 {
+	font-size: 30px;
+}
+
+.about-section {
+	text-align: center;
+	padding: 2rem 0 1rem;
+}
+
+#about {
+   width: 300px;
+   margin: 0 auto;
+}
+
+.me {
+	width: 70px;
+	display: inline-block;
+	margin: 4em 1.5% 0.5em;
+}
+
+.designer{
+	width: 70px;
+	display: inline-block;
+	margin: 1.5em 1.5%;
+}
+
+.designer-section {
+	padding: 1.5rem 0 2rem;
+}
+
+
+}    
+
+/*----- fade ----- */
+
 .fade {
    opacity: 1;
    transition: opacity .25s ease-in-out;
@@ -210,6 +263,7 @@ Will tell the animation to stay at its end state after complete */
       opacity: 0.5;
     	}
     }
+
 
 /*body {
 	margin: 0;
