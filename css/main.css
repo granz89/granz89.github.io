@@ -53,7 +53,7 @@ h4 {
 .nav.scrolling {
 	opacity: 1;
 	background-color: #404143;
-	transition: all 250ms linear;
+	transition: all 500ms linear;
 }
 
 .nav{
