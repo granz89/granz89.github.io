@@ -255,13 +255,16 @@ h1,
 	padding: 0 1.75rem;
 }
 
-.portfolio{
-	width: 300px;
-	display: block;
-	margin: 0 1%;
+.portfolio {
+	width: 250px;
 }
 
-}    
+.portfolio1-section,
+.portfolio2-section {
+	padding: 0rem 0 0;
+}
+
+}  
 
 /*----- fade ----- */
 
