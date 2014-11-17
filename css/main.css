@@ -18,6 +18,35 @@ section {
 h1{
 	font-family: Oswald, "sans serif";
 	font-size: 45px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: Oswald, "sans serif";
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	color: #404143;	
+}
+
+h3 {
+	font-family: Oswald, "sans serif";
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	color: #EBE8DC;	
+}
+
+h4 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0.25em 6.5%;
+	color: #EBE8DC;
+	font-family: Oswald, "sans serif";
 	text-transform: uppercase;
 }
 
@@ -65,22 +94,6 @@ h1{
 	height: 100px;
 }
 
-.header{
-	font-family: Oswald, "sans serif";
-	font-size: 45px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #404143;	
-}
-
-.header1{
-	font-family: Oswald, "sans serif";
-	font-size: 45px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #EBE8DC;	
-}
-
 .logo{
 	width: 600px;
 	z-index: 3;
@@ -118,7 +131,7 @@ h1{
 .logo-section {
 	background: transparent url("../img/placeholder.jpg") no-repeat center top;
 	background-size: cover;
-	padding: 10rem 0 7.5rem;
+	padding: 8.5rem 0 7.5rem;
 	z-index: 2;
 }
 
@@ -237,15 +250,6 @@ h1{
 	text-align: center;
 	background-color: #E0522B;
 	padding: 1rem 0 1rem;
-}
-
-.connect {
-	text-align: center;
-	font-size: 25px;
-	margin: 0.25em 6.5%;
-	color: #EBE8DC;
-	font-family: Oswald, "sans serif";
-	text-transform: uppercase;
 }
 
 .connect1 {
