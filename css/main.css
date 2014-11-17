@@ -87,7 +87,7 @@ h1{
 }
 
 .arrow{
-	width: 75px;
+	width: 65px;
 	padding-top: 9em;
 }
 
@@ -118,7 +118,7 @@ h1{
 .logo-section {
 	background: transparent url("../img/placeholder.jpg") no-repeat center top;
 	background-size: cover;
-	padding: 10rem 0 9rem;
+	padding: 10rem 0 7.5rem;
 	z-index: 2;
 }
 
