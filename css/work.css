@@ -33,3 +33,21 @@
 	opacity: 1;
 	background-color: #404143;
 }
+
+.workText{
+	padding: 2em 6em;
+
+}
+
+.workMain{
+	text-align: center;
+	width: 700px;
+	display: block;
+}
+
+.workSmall{
+	text-align: center;
+	width: 358px;
+	display: inline-block;
+	padding: 1em 0.5em;
+}
