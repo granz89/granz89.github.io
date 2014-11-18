@@ -46,10 +46,9 @@ h4 {
 	font-weight: 400;
 	margin: 0.25em 6.5%;
 	color: #EBE8DC;
-	font-family: Oswald, "sans serif";
+	font-family: Oswald, "sans-serif";
 	text-transform: uppercase;
 }
-
 
 .nav.scrolling {
 	opacity: 1;
@@ -71,12 +70,13 @@ h4 {
 	display: inline-block;
 	float: right;
 	margin-right: 1.5rem;
+	padding-top: 1em;
 }
 
 .links li a{
 	display: inline-block;
 	min-width: 100px;
-	font-size: 1em;
+	font-size: 16px;
 	line-height: 50px;
 	color: #EBE8DC;
 	text-transform: uppercase;
@@ -94,6 +94,8 @@ h4 {
 	width: 100%;
 	height: 100px;
 }
+
+
 
 .logo{
 	width: 600px;
@@ -457,6 +459,48 @@ h1,
 	padding: 0rem 0 0;
 }
 
+.nav{
+	padding-top: 0.75em;
+
 }
+
+.links li{
+	display: inline-block;
+	float: right;
+	margin-right: 1.5rem;
+	padding: 0 1rem;
+}
+
+.links li a{
+	font-size: 12px;
+	line-height: 40px;
+}
+
+.links{
+	width: 100%;
+	height: 100px;
+}
+
+/*
+
+ul.links {
+		height:auto;
+		left:15%;
+	}
+
+	ul.links > li {
+		float:none;
+		width:25%;
+	}
+
+	ul.links a {
+		line-height: 40px;
+	}
+
+	ul.links ul {
+		position: relative;
+	}
+
+} */
 
 
