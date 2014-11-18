@@ -302,6 +302,7 @@ h4 {
    width: 700px;
 }
 
+}
 /*------------------- Media Quiery ----------------*/
 
 @media screen and (max-width: 900px) {
@@ -320,7 +321,7 @@ h4 {
 	width: 200px;
 }
 
-
+}
 /*------------------- Media Quiery ----------------*/
 
 @media screen and (max-width: 700px) {
@@ -390,6 +391,7 @@ h1,
 	padding-bottom: 6rem;
 }
 
+}
 /* -------- 480 ------------ */
 
 @media screen and (max-width: 480px) {
