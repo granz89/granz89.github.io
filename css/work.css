@@ -35,7 +35,8 @@
 }
 
 .workText{
-	padding: 2em 6em;
+	width: 750px;
+    margin: 0 auto;
 
 }
 
@@ -51,3 +52,107 @@
 	display: inline-block;
 	padding: 1em 0.5em;
 }
+
+.work-section {
+	text-align: center;
+	padding: 7rem 0 4rem;
+}
+
+
+
+/*------------------- Media Quiery ----------------*/
+
+@media screen and (max-width: 1100px) {
+
+.workMain{
+	text-align: center;
+	width: 650px;
+}
+
+.workSmall{
+	width: 332px;
+}
+
+.workText{
+	padding: 2em 1.5em;
+
+}
+
+.workText{
+	width: 660px;
+}
+
+
+
+/*------------------- Media Quiery ----------------*/
+
+@media screen and (max-width: 900px) {
+
+.workMain{
+	text-align: center;
+	width: 600px;
+}
+
+.workSmall{
+	width: 308px;
+}
+
+.workText{
+	width: 540px;
+
+}
+
+
+/*------------------- Media Quiery ----------------*/
+
+@media screen and (max-width: 700px) {
+
+.workMain{
+	text-align: center;
+	width: 480px;
+}
+
+.workSmall{
+	width: 247px;
+}
+
+.workText{
+	width: 500px;
+
+}
+
+/* -------- 600 ------------ */
+
+@media screen and (max-width: 600px) {
+	
+.workMain{
+	text-align: center;
+	width: 330px;
+	padding-bottom: 1rem;
+}
+
+.workSmall{
+	width: 341px;
+}
+
+.workText{
+	width: 360px;
+}
+
+/* -------- 480 ------------ */
+
+@media screen and (max-width: 400px) {
+	
+.workMain{
+	text-align: center;
+	width: 200px;
+	padding-bottom: 1rem;
+}
+
+.workSmall{
+	width: 210px;
+}
+
+.workText{
+	width: 230px;
+
