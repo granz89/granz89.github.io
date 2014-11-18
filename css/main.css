@@ -467,8 +467,7 @@ h1,
 .links li{
 	display: inline-block;
 	float: right;
-	margin-right: 1.5rem;
-	padding: 0 1rem;
+	margin-right: -1rem;
 }
 
 .links li a{
@@ -481,26 +480,20 @@ h1,
 	height: 100px;
 }
 
-/*
+}
 
-ul.links {
-		height:auto;
-		left:15%;
-	}
+@media screen and (max-width: 350px) {
 
-	ul.links > li {
-		float:none;
-		width:25%;
-	}
+.links li{
+	display: inline-block;
+	float: right;
+	margin-right: -2rem;
+}
 
-	ul.links a {
-		line-height: 40px;
-	}
+.folio-section{
 
-	ul.links ul {
-		position: relative;
-	}
+	padding: 5rem 3% 1rem;
+}
+}
 
-} */
-
-
+}
