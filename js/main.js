@@ -19,12 +19,7 @@ $win.on('scroll', function () {
 
 });
 
-
-$shuttleSection.waypoint(function () {
-	$shuttle.addClass('js-shuttle-fade');
-}, { offset: '50%' });
-
 $designerSection.waypoint(function () {
-	$designer.addClass('js-shuttle-fade');
+	$designer.addClass('js-designer-fade');
 }, { offset: '50%' });
 

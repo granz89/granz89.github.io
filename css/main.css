@@ -164,20 +164,6 @@ a:hover{
 	opacity: 0;
 }
 
-.js-dipper-fade {
-	-webkit-animation: dipper-fade 1s linear forwards;
-
-}
-
-@-webkit-keyframes dipper-fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 
 .folio-section {
 	text-align: center;
@@ -209,13 +195,12 @@ a:hover{
 	margin: 0 1%;
 }
 
-
-.js-shuttle-fade {
--webkit-animation: shuttle-fade 1s linear forwards;
+.js-designer-fade {
+-webkit-animation: designer-fade 1s linear forwards;
 
 }
 
-@-webkit-keyframes shuttle-fade {
+@-webkit-keyframes designer-fade {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -235,6 +220,7 @@ a:hover{
 	width: 120px;
 	display: inline-block;
 	margin: 3.5em 1.5%;
+	opacity: 0;
 }
 
 
