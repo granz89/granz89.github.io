@@ -50,6 +50,16 @@ h4 {
 	text-transform: uppercase;
 }
 
+a:link,
+a:visited,
+a:active {
+	color: #ebe8dc;
+}
+
+a:hover{
+	color:#404143;
+}
+
 .nav.scrolling {
 	opacity: 1;
 	background-color: #404143;

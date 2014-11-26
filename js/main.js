@@ -1,34 +1,30 @@
 var $win = $(window);
-var $sun = $('.sun');
-var $sunSection = $('.sun-section');
+var $hold = $('.hold');
+var $logoSection = $('.logo-section');
 var $dipperSection = $('.dipper-section');
 var $dipper = $('.dipper');
 var $shuttleSection = $('.shuttle-section');
 var $shuttle = $('.shuttle');
-var $shipsSection = $('.ships-section');
-var $ships = $('.ships');
+var $designerSection = $('.designer-section');
+var $designer = $('.designer');
 
 
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
 
-	$sun.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
+	$hold.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
 
-	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
+	$logoSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
 
 });
-
-$dipperSection.waypoint(function () {
-	$dipper.addClass('js-dipper-fade');
-}, { offset: '50%' });
 
 
 $shuttleSection.waypoint(function () {
 	$shuttle.addClass('js-shuttle-fade');
 }, { offset: '50%' });
 
-$shipsSection.waypoint(function () {
-	$ships.addClass('js-shuttle-fade');
+$designerSection.waypoint(function () {
+	$designer.addClass('js-shuttle-fade');
 }, { offset: '50%' });
 
