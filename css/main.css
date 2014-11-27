@@ -106,7 +106,6 @@ a:hover{
 }
 
 
-
 .logo{
 	width: 600px;
 	z-index: 3;
@@ -164,6 +163,9 @@ a:hover{
 	opacity: 0;
 }
 
+.space{
+	padding-top: 1.5em;
+}
 
 .folio-section {
 	text-align: center;
@@ -219,7 +221,7 @@ a:hover{
 .designer{
 	width: 120px;
 	display: inline-block;
-	margin: 3.5em 1.5%;
+	margin: 3.5em 1%;
 	opacity: 0;
 }
 
@@ -229,7 +231,7 @@ a:hover{
 	background-size: cover;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 6rem 0 7rem;
+	padding: 4rem 0 7rem;
 }
 
 .contact {
@@ -385,8 +387,8 @@ h1,
 	padding: 0;
 }
 
-.space{
-	padding-bottom: 6rem;
+.spacer {
+	padding-bottom: 6em;
 }
 
 }
