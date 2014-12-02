@@ -2,8 +2,11 @@
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">
-<circle fill="none" stroke="#ED5A2A" stroke-width="19" stroke-miterlimit="10" cx="395.8" cy="305.3" r="225.7"/>
-<line fill="none" stroke="#ED5A2A" stroke-width="19" stroke-miterlimit="10" x1="238.5" y1="143.5" x2="543.9" y2="475.7"/>
-<line fill="none" stroke="#ED5A2A" stroke-width="19" stroke-miterlimit="10" x1="558.1" y1="151.6" x2="225.9" y2="457.1"/>
+	 viewBox="65.3 11.3 121.3 121.3" enable-background="new 65.3 11.3 121.3 121.3" xml:space="preserve">
+<circle fill="none" stroke="#ED5A2A" stroke-width="4" stroke-miterlimit="10" cx="126" cy="71.8" r="53.1"/>
+<line fill="none" stroke="#ED5A2A" stroke-width="19" stroke-miterlimit="10" x1="248.2" y1="-117.6" x2="320" y2="-39.5"/>
+<line fill="none" stroke="#ED5A2A" stroke-width="19" stroke-miterlimit="10" x1="323.4" y1="-115.7" x2="245.2" y2="-43.8"/>
+<polygon fill="#FFFFFF" points="141.3,36.4 105.3,72.1 141.3,108.4 148.1,101.5 119,72.1 148.1,43.3 "/>
+<rect x="100.3" y="31.5" fill="none" width="52.7" height="81.8"/>
+<polygon fill="#ED5A2A" points="137.3,37.4 101.3,73.1 137.3,109.4 140.6,106.1 107.8,73 140.6,40.7 "/>
 </svg>
