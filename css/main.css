@@ -213,9 +213,9 @@ a:hover{
 }
 
 .me {
-	width: 175px;
+	width: 375px;
 	display: inline-block;
-	margin: 4em 1.5% 0.5em;
+	margin: 2em 1.5% 0.5em;
 }
 
 .designer{
@@ -256,7 +256,7 @@ a:hover{
 .connect1 {
 	text-align: center;
 	font-size: 15px;
-	margin: 0.25em 6.5% 4em;
+	margin: 0.25em 6.5% 1em;
 	color: #EBE8DC;
 }
 
@@ -271,7 +271,7 @@ a:hover{
 .icons {
 	width: 80px;
 	display: inline-block;
-	margin: 0.25em 4.75%;
+	margin: 0.15em 4.75%;
 }
 
 .fade {
