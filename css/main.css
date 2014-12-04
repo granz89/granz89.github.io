@@ -66,6 +66,10 @@ a:hover{
 	transition: all 500ms linear;
 }
 
+.nav a:hover {
+    color: #ed5a2a;
+}
+
 .nav{
 	position: fixed;
 	width: 100%;
@@ -94,10 +98,10 @@ a:hover{
 }
 
 .slogo{
-	float: left;
 	position: fixed;
 	width: 100px;
 }
+
 
 .links{
 	position: fixed;
@@ -143,13 +147,13 @@ a:hover{
 .logo-section {
 	background: transparent url("../img/placeholder.jpg") no-repeat center top;
 	background-size: cover;
-	padding: 6rem 0 7rem;
+	padding: 6rem 0 8.5rem;
 	z-index: 2;
 }
 
 .about-section {
 	text-align: center;
-	padding: 6rem 0 4rem;
+	padding: 5rem 0 6rem;
 }
 
 #about {
@@ -161,6 +165,10 @@ a:hover{
 .dipper {
 	width: 200px;
 	opacity: 0;
+}
+
+.bold {
+	font-weight: 600;
 }
 
 .space{
@@ -244,7 +252,7 @@ a:hover{
 .contact-section {
 	text-align: center;
 	background-color: #ED5A2A;
-	padding: 3rem 0 1rem;
+	padding: 2rem 0 0;
 }
 
 .contact1-section {
@@ -256,7 +264,7 @@ a:hover{
 .connect1 {
 	text-align: center;
 	font-size: 15px;
-	margin: 0.25em 6.5% 1em;
+	margin: 0.25em 6.5% 0;
 	color: #EBE8DC;
 }
 
@@ -269,9 +277,8 @@ a:hover{
 }
 
 .icons {
-	width: 80px;
 	display: inline-block;
-	margin: 0.15em 4.75%;
+	margin: 0 4.75%;
 }
 
 .fade {
@@ -309,7 +316,7 @@ a:hover{
 
 .about-section {
 	text-align: center;
-	padding: 4rem 0 2rem;
+	padding: 4rem 0 5rem;
 }
 
 #about {
@@ -346,7 +353,7 @@ h1,
 
 .about-section {
 	text-align: center;
-	padding: 4rem 0 2rem;
+	padding: 4rem 0 5rem;
 }
 
 #about {
@@ -416,7 +423,7 @@ h1,
 
 .about-section {
 	text-align: center;
-	padding: 2rem 0 1rem;
+	padding: 2rem 0 3rem;
 }
 
 #about {
