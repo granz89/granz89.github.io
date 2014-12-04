@@ -93,6 +93,10 @@
 	padding: 6rem 0 6rem;
 }
 
+.main-img-work-other{
+	display: none;
+}
+
 /*------------------- Images ----------------*/
 
 .raw1 {
@@ -163,6 +167,17 @@
 	width: 210px;
 }
 
+.mud-logo{
+	width: 210px;
+	display: inline-block;
+	padding-top: 2rem;
+	margin-right: 1rem;
+}
+.mud-center{
+	padding-bottom: 2.5rem;
+	margin-left: 1rem;
+}
+
 /*------------------- Media Quiery ----------------*/
 
 @media screen and (max-width: 1100px) {
@@ -227,6 +242,7 @@
 	width:300px;
 }
 
+
 /* -------- 600 ------------ */
 
 @media screen and (max-width: 600px) {
@@ -249,6 +265,13 @@
 	width:500px;
 }
 
+.main-img-work{
+	display: none;
+}
+
+.main-img-work-other{
+	display: block;
+}
 
 /* -------- 480 ------------ */
 
@@ -289,6 +312,13 @@
 
 .raw-big{
 	width:300px;
+}
+
+.mud-logo{
+	padding-top: 0;
+}
+.mud-center{
+	padding-bottom: 0;
 }
 
 @media screen and (max-width: 350px) {
