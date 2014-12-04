@@ -1,5 +1,5 @@
 .white {
-	background-color: #ffffff;
+	background-color: ##f8f8f8;
 }
 
 .nav-work{
@@ -9,6 +9,10 @@
 	top: 0;
 	background-color: #404143;
 	/*padding-top: 0.75em;*/
+}
+
+.nav-work a:hover {
+    color: #404143;
 }
 
 .workText{
