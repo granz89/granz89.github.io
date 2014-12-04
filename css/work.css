@@ -126,7 +126,6 @@
 	/*margin: 0 1%;*/
 }
 
-
 .raw-big{
 	width: 600px;
 }
@@ -183,7 +182,7 @@
 }
 
 .mud-logo{
-	width: 300px;
+	width: 250px;
 	display: inline-block;
 	padding-top: 2rem;
 }
@@ -234,8 +233,8 @@
 }
 
 .info-logo{
-	width: 150px;
-	padding-top: 1rem;
+	width: 320px;
+	padding-top: 0;
 }
 
 
@@ -331,6 +330,16 @@
 	margin-left: 0;
 }
 
+@media screen and (max-width: 500px) {
+
+.mud-logo{
+	padding-top: 0;
+}
+
+.mud-center{
+	padding-bottom: 0;
+}
+
 /* -------- 480 ------------ */
 
 @media screen and (max-width: 480px) {
@@ -370,6 +379,14 @@
 
 .raw-big{
 	width:300px;
+}
+
+.mud-logo{
+	padding-top: 0;
+}
+
+.mud-center{
+	padding-bottom: 0;
 }
 
 @media screen and (max-width: 423px) {
