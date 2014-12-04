@@ -67,7 +67,7 @@
 
 .x-left {
 	width: 50px;
-	padding-top: 0.9rem;
+	padding-top: 0.7rem;
 	float: left; 
 	margin-left: 1rem
 }
@@ -97,6 +97,10 @@
 	display: none;
 }
 
+.main-img-work-other-wwf{
+	display: none;
+}
+
 /*------------------- Images ----------------*/
 
 .raw1 {
@@ -112,7 +116,8 @@
 	width: 400px;
 }
 
-.main-img-work{
+.main-img-work-stay{
+	padding-top: 4rem;
 }
 
 .raw{
@@ -144,10 +149,16 @@
 
 .portfolio-section-first {
 	text-align: center;
-	padding: 3rem 0 0;
+	padding: 9rem 0 2rem;
+	margin: 0;
 }
 
 .portfolio-section-logo {
+	text-align: center;
+	padding: 8rem 0 5rem;
+}
+
+.portfolio-section-logo-wwf {
 	text-align: center;
 	padding: 8rem 0 5rem;
 }
@@ -157,6 +168,10 @@
 	font-weight: 700;
 	margin: 0;
 	padding-top: 1rem;
+}
+
+.raw-logo{
+	width: 400px;
 }
 
 .sk-text{
@@ -178,6 +193,25 @@
 	margin-left: 1rem;
 }
 
+.web-logo{
+	width: 250px;
+	padding-bottom: 1rem;
+}
+
+.web-head{
+	font-size: 50px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.web-text{
+	margin: 0;
+}
+
+.info-logo{
+	width: 300px;
+	padding-top: 2rem;
+}
 /*------------------- Media Quiery ----------------*/
 
 @media screen and (max-width: 1100px) {
@@ -198,6 +232,11 @@
 
 .workText{
 	width: 660px;
+}
+
+.info-logo{
+	width: 300px;
+	padding-top: 1rem;
 }
 
 
@@ -242,6 +281,17 @@
 	width:300px;
 }
 
+/* -------- 690 ------------ */
+
+@media screen and (max-width: 690px) {
+
+.main-img-work-other-wwf{
+	display: block;
+}
+
+.main-img-work-wwf{
+	display: none;
+}
 
 /* -------- 600 ------------ */
 
@@ -271,6 +321,14 @@
 
 .main-img-work-other{
 	display: block;
+}
+
+.mud-logo{
+	margin-right: 0
+}
+.mud-center{
+	padding-bottom: 2.5rem;
+	margin-left: 0;
 }
 
 /* -------- 480 ------------ */
@@ -314,15 +372,7 @@
 	width:300px;
 }
 
-.mud-logo{
-	padding-top: 0;
-}
-.mud-center{
-	padding-bottom: 0;
-}
-
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 423px) {
 
 .nav2{
 	height: 80px;
@@ -333,4 +383,15 @@
 	float: right;
 	margin-right: -2rem;
 }
+
+.mud-logo{
+	padding-top: 0;
+}
+
+.mud-center{
+	padding-bottom: 0;
+}
+
+.raw-logo{
+	width: 300px;
 }
