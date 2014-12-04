@@ -183,14 +183,13 @@
 }
 
 .mud-logo{
-	width: 210px;
+	width: 300px;
 	display: inline-block;
 	padding-top: 2rem;
-	margin-right: 1rem;
+
 }
 .mud-center{
 	padding-bottom: 2.5rem;
-	margin-left: 1rem;
 }
 
 .web-logo{
