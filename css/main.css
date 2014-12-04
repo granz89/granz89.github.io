@@ -183,8 +183,9 @@ a:hover{
 }
 
 .bold {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .space{
@@ -302,11 +303,41 @@ a:hover{
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+   position: relative;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
    }
 
-   .fade:hover {
-      opacity: 0.5;
-      }
+.fade:hover {
+   opacity: 0.5;
+    }
+
+/*
+ .fade:hover .work-hover {
+    	visibility: visible;
+    	opacity: 1;
+    	transition: all .2s linear;
+    }
+
+
+.work-hover{
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right:0;
+	width: 100%;
+	height:100%;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+*/
 
 /*------------------- Media Quiery ----------------*/
 
