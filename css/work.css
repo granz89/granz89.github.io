@@ -95,6 +95,10 @@
 	display: none;
 }
 
+.main-img-work-other-sk{
+	display: none;
+}
+
 .main-img-work-other-wwf{
 	display: none;
 }
@@ -277,6 +281,13 @@
 	width:300px;
 }
 
+.main-img-work-other-sk{
+	display: block;
+}
+
+.main-img-work-sk{
+	display: none;
+}
 
 /* -------- 690 ------------ */
 
@@ -289,6 +300,7 @@
 .main-img-work-wwf{
 	display: none;
 }
+
 
 /* -------- 600 ------------ */
 
