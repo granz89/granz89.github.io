@@ -1,5 +1,5 @@
 .white {
-	background-color: ##f8f8f8;
+	background-color: #f4f1ec;
 }
 
 .nav-work{
@@ -117,6 +117,7 @@
 	/*margin: 0 1%;*/
 }
 
+
 .raw-big{
 	width: 600px;
 }
@@ -140,6 +141,26 @@
 .portfolio-section-first {
 	text-align: center;
 	padding: 3rem 0 0;
+}
+
+.portfolio-section-logo {
+	text-align: center;
+	padding: 8rem 0 5rem;
+}
+
+.sk-head{
+	font-size: 50px;
+	font-weight: 700;
+	margin: 0;
+	padding-top: 1rem;
+}
+
+.sk-text{
+	margin: 0;
+}
+
+.sk-logo{
+	width: 210px;
 }
 
 /*------------------- Media Quiery ----------------*/
