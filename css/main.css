@@ -15,52 +15,30 @@ section {
 	padding: 10rem 0;
 }
 
-/*h1{
-	font-family: Oswald, "sans-serif";
-	font-size: 45px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-h2 {
-	font-family: Oswald, "sans-serif";
-	font-size: 45px;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-	color: #404143;	
-}
-
-h3 {
-	font-family: Oswald, "sans-serif";
-	font-size: 45px;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-	color: #EBE8DC;	
-} */
-
 h1{
+	font-family: Oswald, "sans-serif";
 	font-size: 45px;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
 h2 {
+	font-family: Oswald, "sans-serif";
 	font-size: 45px;
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
 	color: #404143;	
 }
 
 h3 {
+	font-family: Oswald, "sans-serif";
 	font-size: 45px;
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
 	color: #EBE8DC;	
-}
+} 
 
 h4 {
 	text-align: center;
@@ -278,7 +256,7 @@ a:hover{
 	background-size: cover;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 4rem 0 7rem;
+	padding: 3.5rem 0 7rem;
 }
 
 .contact {
