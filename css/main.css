@@ -543,6 +543,7 @@ h1,
 	padding: 5rem 3% 1rem;
 }
 
+}
 
 @media screen and (max-width: 300px) {
 
@@ -551,8 +552,12 @@ h1,
 	margin-right: -2.5rem;
 }
 
+}
+
 @media screen and (max-width: 270px) {
 
 .links li{
 	display:none;
+}
+
 }
