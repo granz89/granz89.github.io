@@ -230,6 +230,10 @@
 	margin: 0;
 }
 
+.app-logo{
+	width: 150px;
+	padding-bottom: 1rem;
+}
 .info-logo{
 	width: 300px;
 	padding-top: 2rem;
