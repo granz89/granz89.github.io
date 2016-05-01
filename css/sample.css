@@ -1,0 +1,81 @@
+h2 {
+	font-family: "Open Sans", "sans-serif";
+	font-size: 35px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	color: #4f4f4f;	
+	margin: 0;
+	padding-top: 1em;
+}
+
+.top-padding{
+	padding-top: 0.5em;
+}
+
+.sample{
+	background-color: #f1f1f1;
+}
+
+.sample-logo{
+	width: 270px;
+	margin: 0;
+	padding-top: 2em;
+
+}
+
+.sample-imgs{
+	width:60%;
+	height:auto;
+	display: block;
+	float:right;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+.sample-img{
+	width: 100%;
+}
+
+.sample-text{
+	width:40%;
+	height:auto;
+	display: block;
+	float:left;
+	position: relative;
+	margin:0;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 0;
+}
+
+.sample-footer-section{
+	text-align: left;
+	font-size: 15px;
+	background-color: #4f4f4f;
+	clear: both;
+}
+
+.sample-pages{
+	clear: both;
+	float: right;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+
+.arrow-left{
+	width: 45px;
+	padding-top: 0.7rem;
+	margin-left: 1rem;
+	display: inline;
+}
+
+.arrow-right{
+	width: 45px;
+	padding-top: 0.7rem;
+	margin-left: 1rem;
+	display: inline;
+}
+
+}

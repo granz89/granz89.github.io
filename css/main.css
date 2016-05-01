@@ -1,8 +1,13 @@
+/* --- Colours
+Secondary: #4f4f4f; (grey)
+---- */
+
+
 body {
 	margin: 0;
 	padding: 0;
 	font: normal 100%/1.5 "Open Sans","sans-serif";
-	background-color: #f4f1ec;
+	font-weight: 300;
 	color: #404143;
 }
 
@@ -29,7 +34,7 @@ h2 {
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
-	color: #404143;	
+	color: #4f4f4f;	
 }
 
 h3 {
@@ -38,17 +43,19 @@ h3 {
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
-	color: #EBE8DC;	
+	color: #4f4f4f;
+	letter-spacing: 3px;	
 } 
 
 h4 {
 	text-align: center;
 	font-size: 25px;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 0.25em 6.5%;
-	color: #EBE8DC;
+	color: #ffffff;
 	font-family: Oswald, "sans-serif";
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 a:link,
@@ -62,12 +69,15 @@ a:hover{
 }
 
 .nav.scrolling {
-	opacity: 1;
-	background-color: #404143;
-	-webkit-transition: all 500ms ease-out;
-    -moz-transition: all 500ms ease-out;
-    -o-transition: all 500ms ease-out;
-    transition: all 500ms ease-out;
+	/*border-bottom-width: 0.25px;
+	border-style: solid;
+	border-bottom-color: #4f4f4f; */
+	background-color: #ffffff;
+	opacity: 0.9;
+	-webkit-transition: all 800ms ease-out;
+    -moz-transition: all 800ms ease-out;
+    -o-transition: all 800ms ease-out;
+    transition: all 800ms ease-out; 
 }
 
 .nav a:hover {
@@ -77,10 +87,9 @@ a:hover{
 .nav{
 	position: fixed;
 	width: 100%;
-	height: 85px;
+	height: 65px;
 	top: 0;
 	z-index: 999;
-	padding-top: 0.45em;
 	opacity: 0;
 }
 
@@ -99,6 +108,8 @@ a:hover{
 }
 
 .links li{
+	font-family: "Open Sans", "sans-serif";
+	font-weight: 300;
 	display: inline-block;
 	float: left;
 	margin-right: 1.5rem;
@@ -108,9 +119,9 @@ a:hover{
 .links li a{
 	display: inline-block;
 	min-width: 100px;
-	font-size: 16px;
-	line-height: 50px;
-	color: #EBE8DC;
+	font-size: 14px;
+	line-height: 40px;
+	color: #4f4f4f;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -129,7 +140,7 @@ a:hover{
 
 
 .logo{
-	width: 600px;
+	width: 400px;
 	z-index: 3;
 }
 
@@ -175,15 +186,88 @@ a:hover{
 }
 
 .logo-section {
-	background: transparent url("../img/placeholder.jpg") no-repeat center top;
-	background-size: cover;
+	/*background: transparent url("../img/placeholder.jpg") no-repeat center top;
+	background-size: cover; 
 	padding: 6rem 0 8.5rem;
-	z-index: 2;
+	z-index: 2; */
+}
+
+.workstuff:after {
+    clear: both;
+}
+
+.workstuff:after,  
+.workstuff:before {
+    content: ' ';
+    display: table;
+}
+
+.workstuff {
+	zoom:1;
+	margin-bottom: 0;
+
+}
+
+.workstuff ul {
+	list-style-type: none;
+}
+
+.workstuff ul li {
+	width:33.33%;
+	height:auto;
+	display: inline-table;
+	float:left;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+.workstuff ul li img {
+	width:100%;
+}
+
+.workstuff ul li .overlay {
+    background-color: rgba(33, 35, 40, 0.95);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.workstuff ul li .overlay:hover {
+    opacity:1;
+
+}
+
+.workstuff ul li .overlay summary {
+    bottom: 30px;
+    left: 60px;
+    padding-right: 30px;
+    position: absolute;
+}
+
+.workstuff ul li .overlay summary h2 {
+    color: white;
+    font: 100 20px/1em museo-sans, sans-serif;
+    padding-bottom: 15px;
+}
+
+.workstuff ul li .overlay summary h3 {
+    color: #80807e;
+    font: 300 14px/1em museo-sans, sans-serif;
+    padding-top: 15px;
 }
 
 .about-section {
 	text-align: center;
-	padding: 5rem 0 6rem;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
 
 #about {
@@ -207,34 +291,51 @@ a:hover{
 	padding-top: 1.5em;
 }
 
-.folio-section {
+.letter-spacing{
+	letter-spacing: 5px;
+}
+
+.space-about{
+	padding-top: 2em;
+	padding-left: 11em;
+	padding-right: 11em;
+	line-height: 2;
+}
+
+/*.folio-section {
 	text-align: center;
 	padding: 5rem 0 1rem;
+	background-color: #ffffff;
 }
 
 .folio2-section {
 	display: none;
+	background-color: #ffffff;
 }
 
 .portfolio-section {
 	text-align: center;
 	padding: 3rem 0 0;
+	background-color: #ffffff;
 }
 
 .portfolio1-section {
 	text-align: center;
 	padding: 1.3rem 0 0;
+	background-color: #ffffff;
 }
 
 .portfolio2-section {
 	text-align: center;
 	padding: 1.3rem 0 6rem;
+	background-color: #ffffff;
 }
 
 .portfolio{
 	width: 300px;
 	display: inline-block;
 	margin: 0 1%;
+	background-color: #ffffff;*/
 }
 
 .js-designer-fade {
@@ -269,9 +370,10 @@ a:hover{
 .designer-section {
 	background: transparent url("../img/placeholder1.jpg") no-repeat center;
 	background-size: cover;
+	background-color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 3.5rem 0 7rem;
+	padding: 3.5rem 0 3.5rem;
 }
 
 .contact {
@@ -283,34 +385,36 @@ a:hover{
 
 .contact-section {
 	text-align: center;
-	background-color: #ED5A2A;
-	padding: 2rem 0 0;
+	background-color: #4f4f4f;
+	padding: 2rem 0 2rem 0;
 }
 
 .contact1-section {
 	text-align: center;
-	background-color: #E0522B;
+	background-color: #454545;
 	padding: 1rem 0 1rem;
 }
 
 .connect1 {
 	text-align: center;
-	font-size: 15px;
+	font-size: 13px;
+	font-weight: 300;
 	margin: 0.25em 6.5% 0;
-	color: #f4f1ec;
+	color: #ffffff;
+	letter-spacing: 1px;
 }
 
 .connect2 {
 	text-align: center;
 	font-size: 12px;
 	margin: 2em 6.5% 1em;
-	color: #f4f1ec;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
 .icons {
 	display: inline-block;
-	margin: 0 4.75%;
+	margin: 0 4.25%;
 }
 
 .fade {
@@ -365,19 +469,35 @@ a:hover{
 }
 /*------------------- Media Quiery ----------------*/
 
+@media screen and (max-width: 1080px) {
+
+.workstuff ul li {
+	width:50%;
+}
+
+}
+
 @media screen and (max-width: 1100px) {
-	
+
+/*	
 .portfolio {
 	width: 250px;
 }
 
 .portfolio1-section,
 .portfolio2-section {
-}
+} */
 
 #about {
    margin: 0 auto;
    width: 700px;
+}
+
+.space-about{
+	padding-top: 2em;
+	padding-left: 7.5em;
+	padding-right: 7.5em;
+	line-height: 2;
 }
 
 }
@@ -395,8 +515,15 @@ a:hover{
    width: 600px;
 }
 
-.portfolio {
+/*.portfolio {
 	width: 200px;
+}*/
+
+.space-about{
+	padding-top: 2em;
+	padding-left: 6em;
+	padding-right: 6em;
+	line-height: 2;
 }
 
 }
@@ -469,7 +596,23 @@ h1,
 	padding-bottom: 6em;
 }
 
+.space-about{
+	padding-top: 2em;
+	padding-left: 5em;
+	padding-right: 5em;
+	line-height: 2;
 }
+
+}
+
+@media screen and (max-width: 640px) {
+
+.workstuff ul li {
+	width:100%;
+}
+
+}
+
 /* -------- 480 ------------ */
 
 @media screen and (max-width: 480px) {
@@ -560,6 +703,13 @@ h1,
 	width: 300px;
 }
 
+.space-about{
+	padding-top: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	line-height: 2;
+}
+
 }
 
 @media screen and (max-width: 350px) {
@@ -570,6 +720,11 @@ h1,
 
 .folio-section{
 	padding: 5rem 3% 1rem;
+}
+
+.space-about{
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 }

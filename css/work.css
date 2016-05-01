@@ -1,3 +1,46 @@
+/*------------ Sample Section App -----------------*/
+
+.sample-section-logo{
+
+}
+
+.sample-work{
+	width:60%;
+	height:auto;
+	display: block;
+	float:right;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+.sample-work:after {
+    clear: both;
+}
+
+.sample-work:after,  
+.sample-work:before {
+    content: ' ';
+    display: block;
+}
+
+.sample-text{
+	float: left;
+	width: 40%;
+}
+
+.sample-botom{
+	clear: both;
+	background-color: #4f4f4f;
+	width:;
+}
+
+/* ----------- Other --------- */
+
+.footer {
+	width:100%;
+	background-color: #4f4f4f;
+}
 .white {
 	background-color: #f4f1ec;
 }
@@ -109,8 +152,8 @@
 }
 
 .about-work {
-	text-align: center;
-	padding: 6rem 0 6rem;
+	text-align: left;
+	padding: 2rem 0 2rem;
 }
 
 .main-img-work-other{
@@ -121,11 +164,22 @@
 	display: none;
 }
 
-.main-img-work-other-wwf{
-	display: none;
+.main-img-work-other-wwf img{
+	width:60%;
+	height:auto;
+	display: block;
+	float:right;
+	position: relative;
+	margin:0;
+	padding:0;
 }
 
-/*------------------- Images ----------------*/
+.main-img-work-wwf {
+	display:none;
+
+}
+
+/*------------------- Images ---------------- */
 
 .raw1 {
 	width: 100%;
@@ -147,7 +201,7 @@
 .raw{
 	width: 350px;
 	display: inline-block;
-	/*margin: 0 1%;*/
+	/*margin: 0 1%; */
 }
 
 .raw-big{
@@ -165,19 +219,19 @@
 }
 
 .portfolio-section-work{
-	text-align: center;
+	text-align: left
 	padding: 0.5rem 0 5rem;
 
 }
 
 .portfolio-section-first {
-	text-align: center;
+	text-align: left;
 	padding: 9rem 0 2rem;
 	margin: 0;
 }
 
 .portfolio-section-logo {
-	text-align: center;
+	text-align: left;
 	padding: 8rem 0 5rem;
 }
 
@@ -233,6 +287,7 @@
 .app-logo{
 	width: 150px;
 	padding-bottom: 1rem;
+	float: left;
 }
 .info-logo{
 	width: 300px;
@@ -242,7 +297,7 @@
 
 @media screen and (max-width: 1100px) {
 
-.workMain{
+*/.workMain{
 	text-align: center;
 	width: 650px;
 }
@@ -258,7 +313,7 @@
 
 .workText{
 	width: 660px;
-}
+} */
 
 .info-logo{
 	width: 320px;
