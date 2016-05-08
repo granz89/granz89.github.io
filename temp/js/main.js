@@ -13,9 +13,9 @@ var $designer = $('.designer');
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
 
-	$hold.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
+	$hold.css('transform', 'rotate(' + scrollPos / 2 + 'deg)');
 
-	$logoSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
+	$logoSection.css('background-position', 'center ' + scrollPos / 1 + 'px');
 
 });
 
