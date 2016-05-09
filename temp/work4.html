@@ -23,9 +23,8 @@
 <body class="sample">
 
 	<div class="nav">
-		<!--<a href="index.html"><img class="slogo" src="img/small.svg" alt="logo"></a> -->
-		<ul class="links">
-			<li><a href="#about">About</a></li>
+		<ul class="sample-links">
+			<li><a href="index.html">Home</a></li>
 			<li><a href="#work">Work</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
@@ -33,17 +32,17 @@
 
 	<div class="sample-section">
 
-		<section class="sample-imgs">
-			<img class="sample-img" src="img/raw/9.jpg" alt="raw logo">
-			<img class="sample-img" src="img/raw/9a.jpg" alt="raw logo">
-		</section>
-
 		<section class="sample-text">
 			<a href="index.html"><img class="sample-logo" src="img/logo.svg"></a>
 			<h2> raw Sugar Tea</h2>
 			<p>For lovers of tea and the classic old cafe style, Raw Sugar Tea was designed to attract locals needing a quiet retreat. It is an artisan stop, which like the logo, focuses on craft and detail. This logo pairs fine lines and imagery to craft an abstract adaptation of tea leaves to a traditional teapot, with simple text and slight curves to pull the piece together.</p>
 			<p class="top-padding">
 			<hr>
+		</section>
+
+		<section class="sample-imgs">
+			<img class="sample-img" src="img/raw/9.jpg" alt="raw logo">
+			<img class="sample-img" src="img/raw/9a.jpg" alt="raw logo">
 		</section>
 
 	</div>
@@ -54,7 +53,7 @@
 	</div>
 
 	<div class="sample-footer-section">
-		<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b">
+		<div class="contact-section">
 			    <a href="https://www.linkedin.com/pub/adriana-granieri/27/a6/6a0" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/in.svg" alt="LinkedIn"></a>
 			    <a href="mailto:a.granieri@hotmail.com"><img class="icons hi-icon hi-icon-mobile" src="img/dot-1.svg" alt="Email"></a>
 			    <a href="https://www.behance.net/agranieri" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/be.svg" alt="Behance"></a>
@@ -70,7 +69,7 @@
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
 
-	    if (scroll >= 500) {
+	    if (scroll >= 200) {
 	        $(".nav").addClass("scrolling");
 	    } else {
 	        $(".nav").removeClass("scrolling");

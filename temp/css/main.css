@@ -16,10 +16,6 @@ img {
 	margin: 0 auto;
 }
 
-section {
-	padding: 10rem 0;
-}
-
 h1{
 	font-family: Oswald, "sans-serif";
 	font-size: 45px;
@@ -371,7 +367,7 @@ padding-bottom: 38px;
 
 .designer-section {
 	background: transparent url("../img/placeholder1.jpg") no-repeat center;
-	background-size: cover;
+	background-size: cover;file:///Users/agranieri/Documents/School/Graphic%20Design/Year%203/Year%203%20Semester%201/Web%20Development%20IV/portfolio-website/granz89.github.io/temp/work5.html
 	background-color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
@@ -532,7 +528,7 @@ padding-bottom: 38px;
 }
 /*------------------- Media Quiery ----------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
 	
 body {
 	font: normal 90%/1.5 "Open Sans","sans-serif";
@@ -604,7 +600,6 @@ h1,
 	padding-left: 5em;
 	padding-right: 5em;
 	line-height: 2;
-}
 
 }
 

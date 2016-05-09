@@ -23,9 +23,8 @@
 <body class="sample">
 
 	<div class="nav">
-		<!--<a href="index.html"><img class="slogo" src="img/small.svg" alt="logo"></a> -->
-		<ul class="links">
-			<li><a href="#about">About</a></li>
+		<ul class="sample-links">
+			<li><a href="index.html">Home</a></li>
 			<li><a href="#work">Work</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
@@ -33,18 +32,18 @@
 
 	<div class="sample-section">
 
-		<section class="sample-imgs">
-			<img class="sample-img" src="img/tree/tree-big.jpg" alt="trees">
-			<img class="sample-img" src="img/tree/tree-left.jpg" alt="trees">
-			<img class="sample-img" src="img/tree/tree-right.jpg" alt="trees">
-		</section>
-
 		<section class="sample-text">
 			<a href="index.html"><img class="sample-logo" src="img/logo.svg"></a>
 			<h2> Movie Posters </h2>
 			<p>Originally created as rough of sketches of local trees, the Canadian Tree collection has now developed into a more defined series of drawings. Created with pencil and marker the trees were turned into vector designs that have been used predominately for wall art and dishware.</p>
 			<p class="top-padding">
 			<hr>
+		</section>
+
+		<section class="sample-imgs">
+			<img class="sample-img" src="img/tree/tree-big.jpg" alt="trees">
+			<img class="sample-img" src="img/tree/tree-left.jpg" alt="trees">
+			<img class="sample-img" src="img/tree/tree-right.jpg" alt="trees">
 		</section>
 
 	</div>
@@ -55,7 +54,7 @@
 	</div>
 
 	<div class="sample-footer-section">
-		<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b">
+		<div class="contact-section">
 			    <a href="https://www.linkedin.com/pub/adriana-granieri/27/a6/6a0" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/in.svg" alt="LinkedIn"></a>
 			    <a href="mailto:a.granieri@hotmail.com"><img class="icons hi-icon hi-icon-mobile" src="img/dot-1.svg" alt="Email"></a>
 			    <a href="https://www.behance.net/agranieri" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/be.svg" alt="Behance"></a>
@@ -71,7 +70,7 @@
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
 
-	    if (scroll >= 500) {
+	    if (scroll >= 200) {
 	        $(".nav").addClass("scrolling");
 	    } else {
 	        $(".nav").removeClass("scrolling");

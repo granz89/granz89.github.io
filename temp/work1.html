@@ -23,9 +23,8 @@
 <body class="sample">
 
 	<div class="nav">
-		<!--<a href="index.html"><img class="slogo" src="img/small.svg" alt="logo"></a> -->
-		<ul class="links">
-			<li><a href="index.html">About</a></li>
+		<ul class="sample-links">
+			<li><a href="index.html">Home</a></li>
 			<li><a href="index.html">Work</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
@@ -33,18 +32,18 @@
 
 	<div class="sample-section">
 
-		<section class="sample-imgs">
-			<img class="sample-img sample-break" src="img/sk/sk-right.jpg" alt="trees">
-			<img class="sample-img sample-break" src="img/sk/sk-two.jpg" alt="poster">
-			<img class="sample-img sample-break" src="img/sk/sk-one.jpg" alt="poster">
-		</section>
-
 		<section class="sample-text">
 			<a href="index.html"><img class="sample-logo" src="img/logo.svg"></a>
 			<h2> Movie Posters </h2>
 			<p>Inspired during a Stephen King movie marathon, this poster set was designed to showcase some of the classic staples in King’s horror collection. The posters were created to be very simplistic and used a grunge overlay to enhance the design.</p>
 			<p class="top-padding">
 			<hr>
+		</section>
+
+		<section class="sample-imgs">
+			<img class="sample-img sample-break" src="img/sk/sk-right.jpg" alt="trees">
+			<img class="sample-img sample-break" src="img/sk/sk-two.jpg" alt="poster">
+			<img class="sample-img sample-break" src="img/sk/sk-one.jpg" alt="poster">
 		</section>
 
 	</div>
@@ -56,7 +55,7 @@
 
 	<div class="sample-footer-section">
 		<div id="contact">
-		<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b">
+		<div class="contact-section">
 			    <a href="https://www.linkedin.com/pub/adriana-granieri/27/a6/6a0" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/in.svg" alt="LinkedIn"></a>
 			    <a href="mailto:a.granieri@hotmail.com"><img class="icons hi-icon hi-icon-mobile" src="img/dot-1.svg" alt="Email"></a>
 			    <a href="https://www.behance.net/agranieri" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/be.svg" alt="Behance"></a>
@@ -72,7 +71,7 @@
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
 
-	    if (scroll >= 500) {
+	    if (scroll >= 200) {
 	        $(".nav").addClass("scrolling");
 	    } else {
 	        $(".nav").removeClass("scrolling");
