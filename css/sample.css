@@ -39,6 +39,14 @@ h2 {
 	width: 100%;
 }
 
+.sample-small{
+	width: 40%;
+}
+
+.small-inline{
+	display: inline-block;
+}
+
 .sample-text{
 	width:40%;
 	height:auto;
