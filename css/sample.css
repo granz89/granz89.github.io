@@ -132,6 +132,17 @@ a:hover{
 	float: right;
 }
 
+a.ex1:link,
+a.ex1:visited,
+a.ex1:active {
+	color: #000;
+	font-weight: 300;
+}
+
+a.ex1:hover{
+	color:#ed5a2a;
+}
+
 /*------------------- Media Quiery ----------------*/
 
 @media screen and (max-width: 780px) {

@@ -305,30 +305,25 @@ padding-bottom: 38px;
 	padding: 5rem 0 1rem;
 	background-color: #ffffff;
 }
-
 .folio2-section {
 	display: none;
 	background-color: #ffffff;
 }
-
 .portfolio-section {
 	text-align: center;
 	padding: 3rem 0 0;
 	background-color: #ffffff;
 }
-
 .portfolio1-section {
 	text-align: center;
 	padding: 1.3rem 0 0;
 	background-color: #ffffff;
 }
-
 .portfolio2-section {
 	text-align: center;
 	padding: 1.3rem 0 6rem;
 	background-color: #ffffff;
 }
-
 .portfolio{
 	width: 300px;
 	display: inline-block;
@@ -482,7 +477,6 @@ padding-bottom: 38px;
 .portfolio {
 	width: 250px;
 }
-
 .portfolio1-section,
 .portfolio2-section {
 } */
