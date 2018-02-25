@@ -300,37 +300,6 @@ padding-top: 48px;
 padding-bottom: 38px;
 }
 
-/*.folio-section {
-	text-align: center;
-	padding: 5rem 0 1rem;
-	background-color: #ffffff;
-}
-.folio2-section {
-	display: none;
-	background-color: #ffffff;
-}
-.portfolio-section {
-	text-align: center;
-	padding: 3rem 0 0;
-	background-color: #ffffff;
-}
-.portfolio1-section {
-	text-align: center;
-	padding: 1.3rem 0 0;
-	background-color: #ffffff;
-}
-.portfolio2-section {
-	text-align: center;
-	padding: 1.3rem 0 6rem;
-	background-color: #ffffff;
-}
-.portfolio{
-	width: 300px;
-	display: inline-block;
-	margin: 0 1%;
-	background-color: #ffffff;*/
-}
-
 .js-designer-fade {
 -webkit-animation: designer-fade 1s linear forwards;
 
