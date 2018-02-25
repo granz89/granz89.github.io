@@ -48,10 +48,22 @@ h4 {
 	font-size: 25px;
 	font-weight: 300;
 	margin: 0.25em 6.5%;
-	color: #ffffff;
+	color: #000000;
 	font-family: Oswald, "sans-serif";
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+.center-ad{
+	text-align: center;
+	margin-top: 3rem;
+	width: 70%;
+}
+
+.center-ad2{
+	text-align: center;
+	margin-top: 3rem;
+	width: 50%;
 }
 
 a:link,
@@ -363,7 +375,7 @@ padding-bottom: 38px;
 	font-size: 13px;
 	font-weight: 300;
 	margin: 0.25em 6.5% 0;
-	color: #ffffff;
+	color: #000000;
 	letter-spacing: 1px;
 }
 
@@ -394,6 +406,9 @@ padding-bottom: 38px;
    opacity: 0.5;
 }
 
+.hi-icon:hover {
+opacity: 0.5;
+}
 .error-head {
 	text-align: center;
 	font-size: 50px;

@@ -25,11 +25,12 @@
 	<div class="nav">
 		<ul class="sample-links">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="index.html">Work</a></li>
+			<li><a href="#work">Work</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
 
+	<div id="work">
 	<div class="sample-section">
 
 		<section class="sample-text">
@@ -38,15 +39,10 @@
 			<p>A vibrate portfolio design created for a fellow graphic designer. This project went through many stages to arrive at the final design. Click the links below to see progress work.
 			<br>
 			<br>
-			Full Mockups
+			<a href="1-website-example.html" target="_blank">Full Mockups</a> | <a href="1-website-example2.html" target="_blank">Mobile Mockups</a>
 			<br>
 			<br>
-			Mobile Mockups
-			<br>
-			<br>
-			Wireframe
-			<br>
-			<br>
+			Wireframe | 
 			Live Site
 
 			</p>
@@ -65,14 +61,16 @@
 		<a class="ex1" href="2-booklet.html"><p class="arrow-right"> NEXT > </a>
 	</div>
 
-	<div class="sample-footer-section">
-		<div id="contact">
-		<div class="contact-section">
-			    <a href="https://www.linkedin.com/pub/adriana-granieri/27/a6/6a0" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/in.svg" alt="LinkedIn"></a>
-			    <a href="mailto:a.granieri@hotmail.com"><img class="icons hi-icon hi-icon-mobile" src="img/dot-1.svg" alt="Email"></a>
-			    <a href="https://www.behance.net/agranieri" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/be.svg" alt="Behance"></a>
+	<div id="contact">
+		<div class="sample-footer-section">
+			<div id="contact">
+				<div class="contact-section">
+			    	<a href="https://www.linkedin.com/pub/adriana-granieri/27/a6/6a0" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/in.svg" alt="LinkedIn"></a>
+			    	<a href="mailto:a.granieri@hotmail.com"><img class="icons hi-icon hi-icon-mobile" src="img/dot-1.svg" alt="Email"></a>
+			   	 <a href="https://www.behance.net/agranieri" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/be.svg" alt="Behance"></a>
+			</div>
+		</div>
 	</div>
-
 
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/waypoints.min.js"></script>
@@ -83,7 +81,7 @@
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
 
-	    if (scroll >= 200) {
+	    if (scroll >= 10) {
 	        $(".nav").addClass("scrolling");
 	    } else {
 	        $(".nav").removeClass("scrolling");

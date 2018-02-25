@@ -30,10 +30,11 @@
 		</ul>
 	</div>
 
+	<div id="work">
 		<section class="sample-text">
 			<a href="index.html"><img class="sample-logo" src="img/logo.svg"></a>
 			<h2> DTC Campaign </h2>
-			<p> University of Ottawa's marketing campaign that features stories on some of the amazing people within the University’s community. This is a sample of an updated ad in the compaign, the original design (as shown <a href="jessie.html" target="_blank">HERE</a>) was content heavy and through brainstorms and planning we were able to strip the add down. This package contains print and web ads in both official languages.</p>
+			<p> University of Ottawa's marketing campaign that features stories on some of the amazing people within the University’s community. This is a sample of an updated ad in the compaign, the original design (as shown <a href="6-ads-example.html" target="_blank">HERE</a>) was content heavy and through brainstorms and planning we were able to strip the add down. This package contains print and web ads in both official languages.</p>
 			<p class="top-padding">
 			<hr>
 		</section>	
@@ -54,7 +55,7 @@
 		<a class="ex1" href="7-event.html"><p class="arrow-right"> NEXT > </a>
 	</div>
 
-	<div class="sample-footer-section">
+	<div id="contact" class="sample-footer-section">
 		<div class="contact-section">
 			    <a href="https://www.linkedin.com/pub/adriana-granieri/27/a6/6a0" target="_blank"><img class="icons hi-icon hi-icon-mobile" src="img/in.svg" alt="LinkedIn"></a>
 			    <a href="mailto:a.granieri@hotmail.com"><img class="icons hi-icon hi-icon-mobile" src="img/dot-1.svg" alt="Email"></a>
@@ -71,7 +72,7 @@
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
 
-	    if (scroll >= 200) {
+	    if (scroll >= 10) {
 	        $(".nav").addClass("scrolling");
 	    } else {
 	        $(".nav").removeClass("scrolling");
