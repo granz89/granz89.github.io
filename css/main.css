@@ -1,4 +1,6 @@
 /* --- Colours
+Nav orange: #fa957a;
+other orange i liked: f4915c;
 Secondary: #4f4f4f; (grey)
 ---- */
 
@@ -17,9 +19,9 @@ img {
 }
 
 h1{
-	font-family: Oswald, "sans-serif";
+	font-family: "Open Sans", "sans-serif";
 	font-size: 45px;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -54,6 +56,10 @@ h4 {
 	letter-spacing: 2px;
 }
 
+.header{
+	padding-top: 4rem;
+}
+
 .center-ad{
 	text-align: center;
 	margin-top: 3rem;
@@ -66,18 +72,22 @@ h4 {
 	width: 50%;
 }
 
-.padding{
+.padding-top{
+	padding-top: 1rem;
 }
 
-a:link,
-a:visited,
-a:active {
-	color: #f4f1ec;
+.bottom-padding{
+	padding-bottom: 1rem;
 }
 
-a:hover{
-	color:#404143;
+.bottom-nav{
+	padding-top: 2rem;
+	padding-bottom: 5rem;	
 }
+
+
+/*-------------------- Main Nav -----------------*/
+
 
 .nav.scrolling {
 	/*border-bottom-width: 0.25px;
@@ -102,7 +112,70 @@ a:hover{
 	top: 0;
 	z-index: 999;
 	opacity: 0;
+	padding-bottom: 0;
+	margin: 0;
 }
+
+/*-------------------- Secondary Nav -----------------*/
+
+.nav-second a:hover {
+    color: #4f4f4f;
+}
+
+.nav-second{
+	width: 100%;
+	height: 75px;
+	top: 0;
+	z-index: 999;
+	padding-bottom: 0;
+	opacity: 1;
+	margin: 0;
+	background-color: #fa957a;
+}
+
+/*-------------------- Third Nav -----------------*/
+
+.nav-third a:hover {
+    color: #4f4f4f;
+}
+
+.nav-third{
+	width: 100%;
+	height: 75px;
+	top: 0;
+	z-index: 999;
+	padding-bottom: 0;
+	opacity: 1;
+	margin: 0;
+	background-color: #fff;
+}
+
+.links-third li{
+	font-family: "Open Sans", "sans-serif";
+	font-weight: 300px;
+	display: inline-block;
+	padding-top: 1em;
+}
+
+
+.links-third li a{
+	min-width: 100px;
+	font-size: 30px;
+	line-height: 20px;
+	color: #4f4f4f;
+	padding-right: 2rem;
+	text-decoration: none;
+}
+
+.links-third{
+	float: right;
+}
+
+.links-third a:hover {
+	color: #ed5a2a;
+}
+
+/*-------------------------- 404 Nav --------------------------*/
 
 .nav-404 a:hover {
     color: #ed5a2a;
@@ -118,47 +191,67 @@ a:hover{
 	background-color: #404143;
 }
 
+/*------------------------ Links and links class ----------------------------*/
+
 .links li{
 	font-family: "Open Sans", "sans-serif";
-	font-weight: 300;
+	font-weight: 100px;
 	display: inline-block;
 	float: left;
-	margin-right: 1.5rem;
+	margin-right: 1rem;
 	padding-top: 1em;
 }
+
 
 .links li a{
 	display: inline-block;
 	min-width: 100px;
 	font-size: 14px;
 	line-height: 40px;
-	color: #4f4f4f;
+	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
+	letter-spacing: 0.75px;
 }
-
-.slogo{
-	width: 70px;
-	float: left;
-	margin: 0;
-	padding: 0;
-}
-
 
 .links{
 	float: right;
 }
 
+a:link,
+a:visited,
+a:active {
+	color: #ffffff;
+}
+
+a:hover{
+	color:#f4915c;
+}
+
+/*-------------------------- LOGO --------------------------*/
+
+.slogo{
+	width: 220px;
+	float: left;
+	margin: 0;
+	padding-top: 0.5;
+}
+
+.slogo:hover {
+opacity: 0.75;
+}
 
 .logo{
 	width: 400px;
 	z-index: 3;
 }
 
-.arrow{
+/*.arrow{
 	width: 65px;
 	padding-top: 5em;
-}
+}*/
+
+/*------------------------- Animations ---------------------------*/
 
 .animated { 
 	-moz-animation: 2s infinite; /* Firefox */
@@ -196,12 +289,8 @@ a:hover{
     animation-name: bounce; 
 }
 
-.logo-section {
-	/*background: transparent url("../img/placeholder.jpg") no-repeat center top;
-	background-size: cover; 
-	padding: 6rem 0 8.5rem;
-	z-index: 2; */
-}
+/*----------------------------------------------------*/
+
 
 .workstuff:after {
     clear: both;
@@ -239,7 +328,7 @@ a:hover{
 
 .workstuff ul li .overlay {
     /*background-color: rgba(33, 35, 40, 0.95);*/
-    background-color: #f4915c;
+    background-color: #fa957a;
     height: 100%;
     left: 0;
     opacity: 0;
@@ -369,8 +458,9 @@ padding-bottom: 38px;
 
 .contact1-section {
 	text-align: center;
-	background-color: #454545;
+	background-color: #f1f1f1;
 	padding: 1rem 0 1rem;
+	color: #000;
 }
 
 .connect1 {
@@ -584,10 +674,38 @@ h1,
 
 }
 
+/* -------- 680 ------------ */
+
 @media screen and (max-width: 640px) {
 
 .workstuff ul li {
 	width:100%;
+}
+
+/* -------- 600 ------------ */
+
+@media screen and (max-width: 600px) {
+
+.slogo{
+	display: none;
+}
+
+.nav-second{
+
+	background-color: #fa957a;
+	text-align: center;
+}
+
+.links{
+	float: none;
+	display:inline-block;
+
+}
+
+.links ul li{
+	text-align: center;
+	display:inline-block;
+
 }
 
 }
@@ -657,15 +775,9 @@ h1,
 	padding: 0rem 0 0;
 }
 
-.nav{
-	padding-bottom: 0;
-	margin: 0;
-
-}
 
 .links li{
 	display: inline-block;
-	margin-right: -1.25rem;
 }
 
 .links li a{
