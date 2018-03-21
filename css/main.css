@@ -1,5 +1,7 @@
 /* --- Colours
 Nav orange: #fa957a;
+Purple: #534D88;
+second purple: 676199;
 other orange i liked: f4915c;
 Secondary: #4f4f4f; (grey)
 ---- */
@@ -41,7 +43,7 @@ h3 {
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
-	color: #4f4f4f;
+	color: #ffffff;
 	letter-spacing: 3px;	
 } 
 
@@ -143,7 +145,7 @@ h4 {
 /*-------------------- Secondary Nav -----------------*/
 
 .nav-second a:hover {
-    color: #4f4f4f;
+    opacity: 0.6;
 }
 
 .nav-second{
@@ -154,7 +156,7 @@ h4 {
 	padding-bottom: 0;
 	opacity: 1;
 	margin: 0;
-	background-color: #fa957a;
+	background-color: #534D88;
 }
 
 .links li{
@@ -185,7 +187,7 @@ h4 {
 /*-------------------- Third Nav -----------------*/
 
 .nav-third a:hover {
-    color: #4f4f4f;
+    opacity: 0.5;
 }
 
 .nav-third{
@@ -352,8 +354,9 @@ opacity: 0.75;
 }
 
 .workstuff ul li .overlay {
-    /*background-color: rgba(33, 35, 40, 0.95);*/
-    background-color: #fa957a;
+    /*background-color: rgba(33, 35, 40, 0.95);
+    background-color: #fa957a;*/
+    background-color: #534D88;
     height: 100%;
     left: 0;
     opacity: 0;
@@ -717,7 +720,7 @@ h1,
 
 .nav-second{
 
-	background-color: #fa957a;
+	background-color: #534D88;
 	text-align: center;
 }
 
