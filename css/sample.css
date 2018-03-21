@@ -180,13 +180,13 @@ a.sample-links:hover{
 a.ex1:link,
 a.ex1:visited,
 a.ex1:active {
-	color: #fa957a;
+	color: #4f4f4f;
 	font-weight: 700;
 	font-size: 13px;
 }
 
 a.ex1:hover{
-	color:#4f4f4f;
+	color:#fa957a;
 }
 
 a.example:link,
