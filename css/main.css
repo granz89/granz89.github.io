@@ -88,6 +88,21 @@ h4 {
 	padding-bottom: 5rem;	
 }
 
+a.page:link,
+a.page:visited,
+a.page:active {
+	color: #000;
+	font-weight: 700;
+	font-size: 14px;
+	padding-right: 5px;
+	padding-left: 2px;
+	text-decoration: underline;
+}
+
+a.example:hover{
+	color:#f4915c;
+}
+
 
 /*-------------------- Main Nav -----------------*/
 
@@ -143,6 +158,9 @@ h4 {
 	float: right;
 }
 
+.special-link{
+	display: none;
+}
 /*-------------------- Secondary Nav -----------------*/
 
 .nav-second a:hover {
@@ -634,6 +652,10 @@ body {
 	font: normal 90%/1.5 "Open Sans","sans-serif";
 }
 
+.links-main li{
+	margin-right: 0;
+}
+
 .logo {
 	width: 400px;
 }
@@ -709,6 +731,10 @@ h1,
 
 .workstuff ul li {
 	width:100%;
+}
+
+.links-main li a{
+	min-width: 90px;
 }
 
 /* -------- 600 ------------ */

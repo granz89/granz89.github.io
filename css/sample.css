@@ -74,8 +74,8 @@ h2 {
 
 .work{
 	text-align: center;
-	padding-right: 8rem;
-	padding-left: 8rem
+	padding-right: 15rem;
+	padding-left: 15rem
 }
 
 .rule{
@@ -208,10 +208,34 @@ a.example:hover{
     margin: 0 auto;
     line-height: 1.75rem;
     padding-bottom: 2rem;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
 }
 
+/*------------------- Media Quiery ----------------*/
+
+@media screen and (max-width: 1500px) {
+
+.work,
+.teaser-text{
+padding-left: 12rem;
+padding-right: 12rem;
+}
+
+}
+
+
+/*------------------- Media Quiery ----------------*/
+
+@media screen and (max-width: 1100px) {
+
+.work,
+.teaser-text{
+padding-left: 8rem;
+padding-right: 8rem;
+}
+
+}
 
 /*------------------- Media Quiery ----------------*/
 
@@ -259,6 +283,11 @@ h2{
 	text-align: center;
 }
 
+.work,
+.teaser-text{
+padding-left: 8rem;
+padding-right: 8rem;
+}
 
 /* -------- 600 ------------ */
 
